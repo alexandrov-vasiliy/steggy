@@ -2,6 +2,7 @@
 # yarn lockfile v1
 
 
-pngjs@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-3.0.1.tgz#b15086ac1ac47298c8fd3f9cdf364fa9879c4db6"
+"pngjs@^3.0.1":
+  "integrity" "sha512-oubNRQBIq7ie4Y/w1i9J6pPQsMXD3Nocno8qPGgiOcy04R8KcsEPJRrfzrX8I6T3vtyoEGr7u++OFXGOxJmqOg=="
+  "resolved" "https://registry.npmjs.org/pngjs/-/pngjs-3.0.1.tgz"
+  "version" "3.0.1"

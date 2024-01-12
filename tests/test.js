@@ -23,12 +23,14 @@ const testEndToEnd = () => {
   const testWithoutEncryption = () => {
     const concealed = conceal()(image, message)
     const result = reveal()(concealed)
+    console.log('----------testWithoutEncryption--------- \n message =>', message,'\nresult => ',result)
     return assert.ok(result.equals(message))
   }
 
   const testWithEncryption = () => {
     const concealed = conceal('letmein')(image, message)
     const result = reveal('letmein')(concealed)
+    console.log('----------testWithEncryption--------- \n message =>', message,'\nresult => ', result)
     return assert.ok(result.equals(message))
   }
 
